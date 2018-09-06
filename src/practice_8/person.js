@@ -2,7 +2,8 @@
 
 "use strict";
 class Person{
-    constructor(name,age){
+    constructor(num,name,age){
+        this.num = num;
         this.name = name;
         this.age = age;
     }
