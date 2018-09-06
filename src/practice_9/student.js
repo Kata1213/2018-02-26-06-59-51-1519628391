@@ -3,7 +3,6 @@
 
 "use strict";
 import Person from "../practice_9/person";
-import Class from "../practice_9/class";
 class Student extends Person{
     constructor(num,name,age,klass) {
         super(num,name,age);

@@ -1,6 +1,5 @@
 
 "use strict";
-import Student from "./student";
 
 class Class{
     constructor(number,leader){
