@@ -1,5 +1,4 @@
 
-//should get display name with number
 "use strict";
 class Class{
     constructor(klass){
