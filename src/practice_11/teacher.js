@@ -10,7 +10,7 @@ class Teacher extends Person{
     }
 
     introduce(){
-        if(this.klasses == undefined){
+        if(this.klasses === undefined){
             return super.introduce() +` I am a Teacher. I teach No Class.`;
         }
 

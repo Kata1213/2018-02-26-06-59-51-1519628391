@@ -15,8 +15,7 @@ class Class{
     assignLeader(student){
         if(student.klass.number === this.number){
             this.leader = student;
-            // console.log(`I am ${this.teacher.name}. I know ${this.leader.name} become Leader of Class ${this.number}.`);
-            if(this.Leaderteacher){
+            if(!!this.Leaderteacher){ //这里加上 ，！！ 是表示取反，再取反，这样就可以转换成boolean类型了。
                 const result = `I am ${this.Leaderteacher.name}. I know ${student.name} become Leader of Class ${this.number}.`;
                 console.log(result);
             }

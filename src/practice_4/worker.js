@@ -2,7 +2,7 @@
 
 //should overwrite Person introduce, introduce with name and age
 "use strict";
-import Person from "../practice_3/person";
+import Person from "../practice_4/person";
 class Worker extends Person{
     constructor(name,age){
         super(name,age);

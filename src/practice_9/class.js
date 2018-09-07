@@ -1,16 +1,17 @@
 
 "use strict";
 
+import Person from "./person";
+
 class Class{
-    constructor(number,leader){
+    constructor(number){
         this.number = number;
-        this.leader = leader;
     }
     getDisplayName(){
         return `Class ${this.number}`;
     }
     assignLeader(student){
-        if(student.klass.number == this.number){
+        if(student.klass.number === this.number){
             this.leader = student;
         }else{
             console.log("It is not one of us.");
@@ -22,3 +23,4 @@ class Class{
     }
 }
 
+export default Class;

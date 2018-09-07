@@ -2,9 +2,8 @@
 
 "use strict";
 class Class{
-    constructor(number,leader){
+    constructor(number){
         this.number = number;
-        this.leader = leader;
     }
     getDisplayName(){
         return `Class ${this.number}`;

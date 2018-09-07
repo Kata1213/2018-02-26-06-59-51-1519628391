@@ -10,9 +10,7 @@ class Teacher extends Person{
     }
 
     introduce(){
-        var res=`My name is ${this.name}. I am ${this.age} years old. I am a Teacher. I `;
-        res += this.klass===undefined?`teach No Class.`:`teach Class ${this.klass.number}.`;
-        return res;
+        return `${super.introduce()} I am a Teacher. I teach ${this.klass ? `Class ${this.klass.number}` : 'No Class' }.`;
     }
 
     introduceWith(studentJerry){

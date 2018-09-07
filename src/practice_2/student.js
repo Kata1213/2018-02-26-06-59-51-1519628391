@@ -1,8 +1,8 @@
 "use strict";
-class Student{
+import Person from "../practice_1/person";
+class Student extends Person{
     constructor(name,age,klass) {
-        this.name=name;
-        this.age=age;
+        super(name,age);
         this.klass=klass;
     }
 
